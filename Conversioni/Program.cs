@@ -20,7 +20,7 @@ namespace Conversioni
             while (numero > 0)
             {
                 resto = numero % divisore;
-                numero = numero / 2;
+                numero = numero / 8;
                 numeroConvertito = Convert.ToString(resto) + numeroConvertito;
             }
 
